@@ -8,7 +8,7 @@ jobs:
     
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Execute this action
       uses: BjornLuG/substitute-string-action@v1.0.0
       id: sub
